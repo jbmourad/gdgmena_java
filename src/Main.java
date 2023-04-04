@@ -2,6 +2,26 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        System.out.println("Hello world");
+
+        //inheritance
+        Cat shirazyCat = new Cat();
+        shirazyCat.eating();
+        Dog pubby =new Dog();
+        pubby.eating();
+
+/*        // static vs null
+        Counter counter1 = new Counter();
+        Counter counter2 = new Counter();*/
+
+/*
+        //ATM application
+        Atm atmBank=new Atm();
+        Atm atmBank2=new Atm(20);
+        atmBank.setCardInformation();
+        atmBank.getCardInformation();
+        atmBank.depositMoney();
+        atmBank.withdrawMoney();*/
 
         /*//println and scanner data from user
         //hello word project
@@ -110,14 +130,14 @@ public class Main {
         /*for (int i=0;i<10; i++){
             System.out.println("Hello World");
         }*/
-        // pyramid loop
+        /*// pyramid loop
         for(int i=0;i<6;i++){
             for(int j=0;j<=i;j++){
                 System.out.print("*");
             }
             System.out.println("");
         }
-
+*/
 
     }
 }
